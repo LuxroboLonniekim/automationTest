@@ -22,6 +22,6 @@ jobs:
       run: swift test -v
     - name: Xcode Build
       run: |
-            pod install --repo-update --clean-install --project-directory=testTest/
+            pod install
             xcodebuild clean test -workspace testTest/testTest.xcworkspace -scheme testTest -destination 'platform=iOS Simulator,name=iPhone 11 Pro,OS=latest'
         
