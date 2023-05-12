@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'testTest' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'SwiftLint'
+  pod 'RxCocoa'
+  pod 'Charts'
+
+  # Pods for testTest
+
+  target 'testTestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'testTestUITests' do
+    # Pods for testing
+  end
+
+end
