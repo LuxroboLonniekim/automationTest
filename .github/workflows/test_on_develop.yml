@@ -19,5 +19,5 @@ jobs:
     - name: Xcode Build
       run: |
         pod install
-        xcodebuild clean test -workspace testTest.xcworkspace -scheme testTest -destination 'platform=iOS Simulator,name=iPhone 11 Pro,OS=latest'
+        xcodebuild clean test -workspace testTest.xcworkspace -scheme testTest -destination 'platform=iOS Simulator,name=iPhone 13 Pro,OS=latest'
         
